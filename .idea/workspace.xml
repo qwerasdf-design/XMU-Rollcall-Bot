@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9b947822-5d45-45a5-94ad-c3c590bc4532" name="更改" comment="XMU RollCall Bot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/info.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/misc.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/misc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/verify.py" beforeDir="false" afterPath="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI/verify.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,48 +67,48 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.RCbot_gui.executor": "Run",
-    "Python.RollCall_bot.executor": "Run",
-    "Python.clear_console.executor": "Run",
-    "Python.crypto_pw.executor": "Run",
-    "Python.decodeRollCall_test.executor": "Run",
-    "Python.deviceID.executor": "Run",
-    "Python.gui.executor": "Run",
-    "Python.login.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main_gui.executor": "Debug",
-    "Python.send_code.executor": "Run",
-    "Python.start.executor": "Run",
-    "Python.test_cookies.executor": "Run",
-    "Python.tst_login.executor": "Run",
-    "Python.verify.executor": "Run",
-    "Python.wjx.executor": "Run",
-    "Python.未命名.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/wuqifeng/IdeaProjects/Comet/XMU-Rollcall-Bot-CLI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.mcp.McpConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.RCbot_gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RollCall_bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clear_console.executor&quot;: &quot;Run&quot;,
+    &quot;Python.crypto_pw.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decodeRollCall_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.deviceID.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gui.executor&quot;: &quot;Run&quot;,
+    &quot;Python.login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_gui.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.send_code.executor&quot;: &quot;Run&quot;,
+    &quot;Python.start.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_cookies.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tst_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python.verify.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wjx.executor&quot;: &quot;Run&quot;,
+    &quot;Python.未命名.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wuqifeng/IdeaProjects/Comet/XMU-Rollcall-Bot-CLI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.mcp.McpConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/XMU-Rollcall-Bot-CLI" />
@@ -129,7 +123,7 @@
       <recent name="$PROJECT_DIR$/rollcall-bot_XMU" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.RollCall_bot">
     <configuration name="RCbot_gui" type="PythonConfigurationType" factoryName="Python">
       <module name="RollCall" />
       <option name="ENV_FILES" value="" />
@@ -262,39 +256,7 @@
       <workItem from="1762941316045" duration="89000" />
       <workItem from="1763004084147" duration="591000" />
       <workItem from="1763051689354" duration="726000" />
-      <workItem from="1763083474966" duration="17291000" />
-    </task>
-    <task id="LOCAL-00047" summary="XMU RollCall Bot">
-      <option name="closed" value="true" />
-      <created>1762192217463</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1762192217463</updated>
-    </task>
-    <task id="LOCAL-00048" summary="XMU RollCall Bot">
-      <option name="closed" value="true" />
-      <created>1762192253611</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1762192253611</updated>
-    </task>
-    <task id="LOCAL-00049" summary="XMU RollCall Bot">
-      <option name="closed" value="true" />
-      <created>1762192285335</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1762192285335</updated>
-    </task>
-    <task id="LOCAL-00050" summary="XMU RollCall Bot">
-      <option name="closed" value="true" />
-      <created>1762192387234</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1762192387236</updated>
+      <workItem from="1763083474966" duration="20196000" />
     </task>
     <task id="LOCAL-00051" summary="XMU RollCall Bot">
       <option name="closed" value="true" />
@@ -656,7 +618,39 @@
       <option name="project" value="LOCAL" />
       <updated>1763098822510</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="XMU RollCall Bot">
+      <option name="closed" value="true" />
+      <created>1763111779876</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1763111779876</updated>
+    </task>
+    <task id="LOCAL-00097" summary="XMU RollCall Bot">
+      <option name="closed" value="true" />
+      <created>1763114076174</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1763114076175</updated>
+    </task>
+    <task id="LOCAL-00098" summary="XMU RollCall Bot">
+      <option name="closed" value="true" />
+      <created>1763114385909</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1763114385909</updated>
+    </task>
+    <task id="LOCAL-00099" summary="XMU RollCall Bot">
+      <option name="closed" value="true" />
+      <created>1763114495973</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1763114495973</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
