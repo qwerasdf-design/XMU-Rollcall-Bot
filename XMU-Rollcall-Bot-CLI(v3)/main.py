@@ -27,13 +27,16 @@ name = profile["name"]
 
 temp_data = {'rollcalls': []}
 query_count = 0
+start_time = time.time()
 while True:
     c()
-    print("------ XMU Rollcall Bot CLI ------")
-    print("----------version 3.0.0-----------\n")
-    print(t(name),"\n")
-    print(f"Local time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
-    print(f"Query count: {query_count}")
+    now = time.time()
+    print("====== XMU Rollcall Bot CLI ======")
+    print("--------- version 3.0.0 ----------\n")
+    print(t(name),'\n')
+    print(f"Local   time: {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}")
+    print(f"Running time: {int(now - start_time)} seconds\n")
+    print("======= Querying rollcalls =======")
     time.sleep(interval)
     try:
         data = session.get(rollcalls_url, headers=headers).json()
