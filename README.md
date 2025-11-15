@@ -5,6 +5,8 @@
 > **前往 [这里](https://github.com/KrsMt-0113/XMU-Rollcall-Bot/releases) 下载本工具的最新发行版。**
 
 > **[移植文档](transplant.md)**
+> 
+> **[更新日志](ChangeLog.md)**
 
 ### ***此次更新基于大家使用过程中的所有反馈.***
 
