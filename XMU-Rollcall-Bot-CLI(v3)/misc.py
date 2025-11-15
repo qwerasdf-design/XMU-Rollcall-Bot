@@ -45,7 +45,7 @@ def p(data, session):
         print(time.strftime("%H:%M:%S", time.localtime()), f"New rollcall(s) found!\n")
         for i in range(count):
             print(f"{i+1} of {count} :")
-            print(f"Course name：{rollcalls[i]['course_title']},rollcall created by {rollcalls[i]['created_by_name']}.")
+            print(f"Course name：{rollcalls[i]['course_title']},rollcall created by {rollcalls[i]['department_name']} {rollcalls[i]['created_by_name']}.")
             if rollcalls[i]['is_radar']:
                 temp_str = "Radar rollcall"
             elif rollcalls[i]['is_number']:
