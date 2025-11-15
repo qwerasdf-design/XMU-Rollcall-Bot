@@ -7,7 +7,7 @@
 ### ***此次更新基于大家使用过程中的所有反馈.***
 
 <div align="center">
-    <img src="XMU-Rollcall-Bot-CLI(v3)/screenshot.png" width="450">
+    <img src="XMU-Rollcall-Bot-CLI(v3)/screenshot.png" width="500">
 </div>
 
 ## 1. Selenium 启动慢、启动难
