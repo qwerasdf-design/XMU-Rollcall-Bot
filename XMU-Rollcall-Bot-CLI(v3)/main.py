@@ -1,5 +1,6 @@
 import time
-from login import login
+# from login import login
+from tst_login import login
 from misc import c, a, t
 
 interval = 1
