@@ -55,7 +55,6 @@ def p(data, session):
             print(f"rollcall type：{temp_str}\n")
             if (rollcalls[i]['status'] == 'absent') & (rollcalls[i]['is_number']) & (not rollcalls[i]['is_radar']):
                 if send_code(session, rollcalls[i]['rollcall_id']):
-                    print("Answered successfully!")
                     answer_status[i] = True
                 else:
                     print("Answering failed.")
@@ -64,7 +63,6 @@ def p(data, session):
                 answer_status[i] = True
             elif rollcalls[i]['is_radar']:
                 if send_radar(session, rollcalls[i]['rollcall_id']):
-                    print("Answered successfully!")
                     answer_status[i] = True
                 else:
                     print("Answering failed.")

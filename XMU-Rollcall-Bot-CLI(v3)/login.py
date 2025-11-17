@@ -9,6 +9,7 @@ with open(file_path, "r", encoding="utf-8") as f:
     lines = f.readlines()
     USERNAME = lines[0].strip()
     pwd = lines[1].strip()
+
 headers = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
