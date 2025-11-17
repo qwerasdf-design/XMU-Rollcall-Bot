@@ -23,7 +23,7 @@ def send_code(in_session, rollcall_id):
     print("Trying number code...")
     t00 = time.time()
 
-    async def put_request(i, session, stop_flag, url, headers, sem, timeout):
+    async def put_request(i, session, stop_flag, answer_url, sem, timeout):
         if stop_flag.is_set():
             return None
         async with sem:
@@ -34,7 +34,7 @@ def send_code(in_session, rollcall_id):
                 "numberCode": pad(i)
             }
             try:
-                async with session.put(url, json=payload, timeout=timeout) as r:
+                async with session.put(answer_url, json=payload, timeout=timeout) as r:
                     if r.status == 200:
                         stop_flag.set()
                         return pad(i)
@@ -47,7 +47,7 @@ def send_code(in_session, rollcall_id):
         sem = asyncio.Semaphore(200)
         timeout = aiohttp.ClientTimeout(total=5)
         async with aiohttp.ClientSession(headers=headers, cookies=in_session.cookies) as session:
-            tasks = [asyncio.create_task(put_request(i, session, stop_flag, url, headers, sem, timeout)) for i in range(10000)]
+            tasks = [asyncio.create_task(put_request(i, session, stop_flag, url, sem, timeout)) for i in range(10000)]
             try:
                 for coro in asyncio.as_completed(tasks):
                     res = await coro
