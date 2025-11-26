@@ -8,6 +8,8 @@
 > 
 > **[更新日志](ChangeLog.md)**
 >
+> **[📱 安卓运行指南](ANDROID_GUIDE.md)**
+>
 > [查询你所在学校/单位的 Tronclass apiUrl](Tronclass-URL-list/result.csv)
 
 ### ***此次更新基于大家使用过程中的所有反馈.***
